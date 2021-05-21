@@ -29,7 +29,7 @@ impl CompanyQuote {
 
 #[tokio::main]
 async fn main() -> Result<(), ExitFailure> {
-    let api_key = "c2gjqgaad3ie55jbd4t0".to_string();
+    let api_key = "".to_string();
     let args: Vec<String> = env::args().collect();
     let mut symbol: String = "AAPL".to_string();
 
